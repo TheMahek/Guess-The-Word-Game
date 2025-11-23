@@ -12,13 +12,14 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4285f4;
+  background: #d8f3dc; /* Soft pastel green */
 }
 
 .wrapper {
   width: 450px;
-  background: #fff;
-  border-radius: 10px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 2px solid #b7e4c7; /* light green border */
 }
 
 .wrapper h1 {
@@ -26,7 +27,8 @@ body {
   font-size: calc(25 / 16 * 1rem);
   font-weight: 500;
   padding: 20px 25px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #c9d6c5;
+  color: #2d6a4f; /* dark pastel green */
 }
 
 .wrapper .content {
@@ -38,7 +40,6 @@ body {
   left: -9999px;
 }
 
-
 .content .inputs {
   display: flex;
   flex-wrap: wrap;
@@ -47,24 +48,21 @@ body {
 
 .inputs input {
   text-align: center;
-  color: #4285f4;
+  color: #2d6a4f;
   height: 57px;
   width: 56px;
   margin: 4px;
   font-size: calc(24 / 16 * 1rem);
   font-weight: 500;
-  background: none;
+  background: #f1faee; /* pastel light background */
   text-transform: uppercase;
-  border-radius: 5px;
-  border: 1px solid #b5b5b5;
-}
-
-.inputs input:first-child {
-  margin-left: 0;
+  border-radius: 8px;
+  border: 1px solid #95d5b2; 
 }
 
 .content .details {
   margin: 20px 0 25px;
+  color: #1b4332;
 }
 
 .details p {
@@ -81,28 +79,29 @@ body {
   cursor: pointer;
   outline: none;
   border: none;
-  color: #fff;
+  color: #ffffff;
   font-size: calc(17 / 16 * 1rem);
   padding: 15px 0;
-  background: #4285f4;
-  border-radius: 5px;
+  background: #40916c; /* Pastel green button */
+  border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .content .reset-btn:hover {
-  transform: scale(0.98);
+  background: #2d6a4f;
 }
 
 #author {
   width: 100%;
   font-size: 1.1rem;
   text-align: center;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #b7e4c7;
   padding: 25px 0;
+  color: #2d6a4f;
 }
 
 #author a {
-  color: #4285f4;
+  color: #2d6a4f;
 }
 
 @media screen and (max-width: 460px) {
@@ -131,9 +130,5 @@ body {
 
   #author {
     font-size: 1rem;
-  }
-
-  #author a {
-    color: #4285f4;
   }
 }

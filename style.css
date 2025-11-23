@@ -34,10 +34,10 @@ body {
 }
 
 .content .typing-input {
-  z-index: -9999;
-  opacity: 0;
   position: absolute;
+  left: -9999px;
 }
+
 
 .content .inputs {
   display: flex;

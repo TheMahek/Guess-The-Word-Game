@@ -4,8 +4,6 @@ Welcome to **Guess The Word** — a simple, enjoyable, and brain-refreshing word
 You’ll get a hint, a few chances, and a hidden word…  
 Can you guess it before your attempts run out? 😎
 
----
-
 ## 🎮 What’s the Game About?
 
 - A random word appears each round (secretly 👀)
@@ -16,8 +14,6 @@ Can you guess it before your attempts run out? 😎
 
 Perfect for kids, students, or anyone who wants a quick fun break!
 
----
-
 ## 🌟 Features You’ll Love
 
 ✨ Clean and simple UI  
@@ -27,16 +23,11 @@ Perfect for kids, students, or anyone who wants a quick fun break!
 🔁 Play again anytime with a single click  
 ⚡ Lightweight — runs in any browser
 
----
-
 ## 💻 Tech Used
 
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-
-
----
 
 ## 🚀 How to Play
 
